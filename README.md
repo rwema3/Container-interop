@@ -8,7 +8,7 @@ Therefore, all containers implementing container-interop are now *de-facto* comp
 
 Regarding the delegate lookup feature, that is present in container-interop and not in PSR-11, the feature is actually a design pattern. It is therefore not deprecated. Documentation regarding this design pattern will be migrated from this repository into a separate website in the future.
 
-## About
+About
 
 *container-interop* tries to identify and standardize features in *container* objects (service locators,
 dependency injection containers, etc.) to achieve interoperability.
