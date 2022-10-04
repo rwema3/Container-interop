@@ -36,3 +36,5 @@ composer require container-interop/container-interop
 The packages adheres to the [SemVer](http://semver.org/) specification, and there will be full backward compatibility
 between minor versions.
 
+##Developer
+> Rwema D. Bagirishya
