@@ -1,11 +1,5 @@
 # Container Interoperability
 
-[![Latest Stable Version](https://poser.pugx.org/container-interop/container-interop/v/stable.png)](https://packagist.org/packages/container-interop/container-interop)
-[![Total Downloads](https://poser.pugx.org/container-interop/container-interop/downloads.svg)](https://packagist.org/packages/container-interop/container-interop)
-
-## Deprecation warning!
-
-Starting Feb. 13th 2017, container-interop is officially deprecated in favor of [PSR-11](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-11-container.md).
 Container-interop has been the test-bed of PSR-11. From v1.2, container-interop directly extends PSR-11 interfaces.
 Therefore, all containers implementing container-interop are now *de-facto* compatible with PSR-11.
 
