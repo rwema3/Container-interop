@@ -25,3 +25,22 @@ entries to build the application.
 
 This is why this interface focuses only on how entries can be fetched from a container.
 
+## Interface name
+
+The interface name has been thoroughly discussed and was decided by a vote.
+
+The list of options considered with their respective votes are:
+
+- `ContainerInterface`: +8
+- `ProviderInterface`: +2
+- `LocatorInterface`: 0
+- `ReadableContainerInterface`: -5
+- `ServiceLocatorInterface`: -6
+- `ObjectFactory`: -6
+- `ObjectStore`: -8
+- `ConsumerInterface`: -9
+
+[Full results of the vote](https://github.com/container-interop/container-interop/wiki/%231-interface-name:-Vote)
+
+The complete discussion can be read in [the issue #1](https://github.com/container-interop/container-interop/issues/1).
+
