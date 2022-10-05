@@ -68,8 +68,4 @@ When a container is configured to use a delegate container for dependencies:
 
 - Calls to the `get` method should only return an entry if the entry is part of the container.
   If the entry is not part of the container, an exception should be thrown
-  (as requested by the `ContainerInterface`).
-- Calls to the `has` method should only return `true` if the entry is part of the container.
-  If the entry is not part of the container, `false` should be returned.
-- If the fetched entry has dependencies, **instead** of performing
 
