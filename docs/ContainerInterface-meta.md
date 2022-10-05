@@ -66,3 +66,8 @@ The question of whether to include methods to define entries has been discussed 
 It has been judged that such methods do not belong in the interface described here because it is out of its scope
 (see the "Goal" section).
 
+As a result, the `ContainerInterface` contains two methods:
+
+- `get()`, returning anything, with one mandatory string parameter. Should throw an exception if the entry is not found.
+- `has()`, returning a boolean, with one mandatory string parameter.
+
