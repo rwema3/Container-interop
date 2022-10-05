@@ -215,15 +215,6 @@ This was implemented in Symfony 2 using:
 - [interop.symfony.di](https://github.com/thecodingmachine/interop.symfony.di/tree/v0.1.0)
 - [framework interop](https://github.com/mnapoli/framework-interop/)
 
-This was implemented in Silex using:
-
-- [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di)
-
-Having a container act as the composite container is not part of the delegate lookup standard because it is
-simply a temporary design pattern used to make existing frameworks that do not support yet ContainerInterop
-play nice with other DI containers.
-
-
 
 6. People
 ---------
