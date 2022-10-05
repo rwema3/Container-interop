@@ -123,10 +123,4 @@ interface ContainerInterface
      *
      * @return boolean
      */
-    public function has($id);
-}
-```
-
-4. `Interop\Container\Exception\ContainerException`
----------------------------------------------------
 
