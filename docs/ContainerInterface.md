@@ -47,3 +47,7 @@ A call to the `get` method with a non-existing id SHOULD throw a
 
 ### 1.3 Additional features
 
+This section describes additional features that MAY be added to a container. Containers are not
+required to implement these features to respect the ContainerInterface.
+
+#### 1.3.1 Delegate lookup feature
