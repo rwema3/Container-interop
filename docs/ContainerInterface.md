@@ -37,3 +37,8 @@ Users of dependency injections containers (DIC) are referred to as `user`.
   `has($id)` returning true does not mean that `get($id)` will not throw an exception.
   It does however mean that `get($id)` will not throw a `NotFoundException`.
 
+### 1.2 Exceptions
+
+Exceptions directly thrown by the container MUST implement the
+[`Interop\Container\Exception\ContainerException`](../src/Interop/Container/Exception/ContainerException.php).
+
