@@ -196,3 +196,22 @@ This was later replaced by:
 Exception cases have been allowed to avoid breaking dependencies with some services that must be provided
 by the container (on @njasm proposal). This was proposed here: https://github.com/container-interop/container-interop/pull/20#issuecomment-56597235
 
+### 4.5 Alternative: having one of the containers act as the composite container
+
+In real-life scenarios, we usually have a big framework (Symfony 2, Zend Framework 2, etc...) and we want to
+add another DI container to this container. Most of the time, the "big" framework will be responsible for
+creating the controller's instances, using it's own DI container. Until *container-interop* is fully adopted,
+the "big" framework will not be aware of the existence of a composite container that it should use instead
+of its own container.
+
+For this real-life use cases, @mnapoli and @moufmouf proposed to extend the "big" framework's DI container
+to make it act as a composite container.
+
+This has been discussed [here](https://github.com/container-interop/container-interop/pull/8#issuecomment-40367194) 
+and [here](http://mouf-php.com/container-interop-whats-next#solution4).
+
+This was implemented in Symfony 2 using:
+
+- [interop.symfony.di](https://github.com/thecodingmachine/interop.symfony.di/tree/v0.1.0)
+- [framework interop](https://github.com/mnapoli/framework-interop/)
+
