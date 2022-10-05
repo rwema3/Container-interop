@@ -193,6 +193,3 @@ This was later replaced by:
 > It is however allowed for containers to provide exception cases for special entries, and a way to lookup 
 > into the same container (or another container) instead of the delegate container.
 
-Exception cases have been allowed to avoid breaking dependencies with some services that must be provided
-by the container (on @njasm proposal). This was proposed here: https://github.com/container-interop/container-interop/pull/20#issuecomment-56597235
-
