@@ -107,8 +107,3 @@ Are listed here all people that contributed in the discussions or votes, by alph
 - [Stephan Hochdörfer](https://github.com/shochdoerfer)
 - [Taylor Otwell](https://github.com/taylorotwell)
 
-## Relevant links
-
-- [`ContainerInterface.php`](https://github.com/container-interop/container-interop/blob/master/src/Interop/Container/ContainerInterface.php)
-- [List of all issues](https://github.com/container-interop/container-interop/issues?labels=ContainerInterface&milestone=&page=1&state=closed)
-- [Vote for the interface name](https://github.com/container-interop/container-interop/wiki/%231-interface-name:-Vote)
