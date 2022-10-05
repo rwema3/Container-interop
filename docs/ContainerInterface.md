@@ -61,4 +61,6 @@ with other containers. Implementation of this feature is therefore RECOMMENDED.
 A container implementing this feature:
 
 - MUST implement the `ContainerInterface`
+- MUST provide a way to register a delegate container (using a constructor parameter, or a setter,
+  or any possible way). The delegate container MUST implement the `ContainerInterface`.
 
