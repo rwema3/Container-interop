@@ -14,3 +14,14 @@ By standardizing such a behavior, frameworks and libraries using the `ContainerI
 could work with any compatible container.
 That would allow end users to choose their own container based on their own preferences.
 
+It is important to distinguish the two usages of a container:
+
+- configuring entries
+- fetching entries
+
+Most of the time, those two sides are not used by the same party.
+While it is often end users who tend to configure entries, it is generally the framework that fetch
+entries to build the application.
+
+This is why this interface focuses only on how entries can be fetched from a container.
+
