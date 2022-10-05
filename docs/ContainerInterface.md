@@ -24,4 +24,3 @@ Users of dependency injections containers (DIC) are referred to as `user`.
 - The `Interop\Container\ContainerInterface` exposes two methods : `get` and `has`.
 
 - `get` takes one mandatory parameter: an entry identifier. It MUST be a string.
-  A call to `get` can return anything (a *mixed* value), or throws an exception if the identifier
