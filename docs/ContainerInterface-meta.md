@@ -79,10 +79,3 @@ as long as they are optional, because the implementation *does* satisfy the inte
 
 This issue has been discussed in [issue #6](https://github.com/container-interop/container-interop/issues/6).
 
-### Type of the `$id` parameter
-
-The type of the `$id` parameter in `get()` and `has()` has been discussed in
-[issue #6](https://github.com/container-interop/container-interop/issues/6).
-While `string` is used in all the containers that were analyzed, it was suggested that allowing
-anything (such as objects) could allow containers to offer a more advanced query API.
-
