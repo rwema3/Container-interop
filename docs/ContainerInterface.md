@@ -76,3 +76,9 @@ When a container is configured to use a delegate container for dependencies:
 
 Important! By default, the lookup SHOULD be performed on the delegate container **only**, not on the container itself.
 
+It is however allowed for containers to provide exception cases for special entries, and a way to lookup
+into the same container (or another container) instead of the delegate container.
+
+2. Package
+----------
+
