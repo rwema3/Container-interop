@@ -55,6 +55,3 @@ required to implement these features to respect the ContainerInterface.
 The goal of the *delegate lookup* feature is to allow several containers to share entries.
 Containers implementing this feature can perform dependency lookups in other containers.
 
-Containers implementing this feature will offer a greater lever of interoperability
-with other containers. Implementation of this feature is therefore RECOMMENDED.
-
