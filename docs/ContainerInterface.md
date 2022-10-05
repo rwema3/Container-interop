@@ -123,4 +123,14 @@ interface ContainerInterface
      *
      * @return boolean
      */
+    public function has($id);
+}
+```
+
+4. `Interop\Container\Exception\ContainerException`
+---------------------------------------------------
+
+```php
+<?php
+namespace Interop\Container\Exception;
 
