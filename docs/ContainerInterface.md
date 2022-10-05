@@ -51,7 +51,3 @@ This section describes additional features that MAY be added to a container. Con
 required to implement these features to respect the ContainerInterface.
 
 #### 1.3.1 Delegate lookup feature
-
-The goal of the *delegate lookup* feature is to allow several containers to share entries.
-Containers implementing this feature can perform dependency lookups in other containers.
-
