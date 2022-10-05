@@ -93,17 +93,3 @@ The conclusion of the discussion was that this was beyond the scope of getting e
 knowing how the container provided them, and it was more fit for a factory.
 
 ## Contributors
-
-Are listed here all people that contributed in the discussions or votes, by alphabetical order:
-
-- [Amy Stephen](https://github.com/AmyStephen)
-- [David Négrier](https://github.com/moufmouf)
-- [Don Gilbert](https://github.com/dongilbert)
-- [Jason Judge](https://github.com/judgej)
-- [Jeremy Lindblom](https://github.com/jeremeamia)
-- [Marco Pivetta](https://github.com/Ocramius)
-- [Matthieu Napoli](https://github.com/mnapoli)
-- [Paul M. Jones](https://github.com/pmjones)
-- [Stephan Hochdörfer](https://github.com/shochdoerfer)
-- [Taylor Otwell](https://github.com/taylorotwell)
-
