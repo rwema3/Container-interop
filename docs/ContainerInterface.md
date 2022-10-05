@@ -90,8 +90,4 @@ The interfaces and classes described as well as relevant exception are provided 
 
 ```php
 <?php
-namespace Interop\Container;
-
-use Interop\Container\Exception\ContainerException;
-use Interop\Container\Exception\NotFoundException;
 
