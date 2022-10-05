@@ -1,3 +1,0 @@
-# ContainerInterface Meta Document
-
-## Introduction
