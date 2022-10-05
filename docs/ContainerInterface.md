@@ -85,9 +85,4 @@ into the same container (or another container) instead of the delegate container
 The interfaces and classes described as well as relevant exception are provided as part of the
 [container-interop/container-interop](https://packagist.org/packages/container-interop/container-interop) package.
 
-3. `Interop\Container\ContainerInterface`
------------------------------------------
-
-```php
-<?php
 
