@@ -142,9 +142,3 @@ interface ContainerException
 }
 ```
 
-5. `Interop\Container\Exception\NotFoundException`
----------------------------------------------------
-
-```php
-<?php
-
