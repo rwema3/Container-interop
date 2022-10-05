@@ -72,4 +72,7 @@ When a container is configured to use a delegate container for dependencies:
 - Calls to the `has` method should only return `true` if the entry is part of the container.
   If the entry is not part of the container, `false` should be returned.
 - If the fetched entry has dependencies, **instead** of performing
+  the dependency lookup in the container, the lookup is performed on the *delegate container*.
+
+Important! By default, the lookup SHOULD be performed on the delegate container **only**, not on the container itself.
 
