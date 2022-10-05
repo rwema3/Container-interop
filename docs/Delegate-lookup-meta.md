@@ -224,14 +224,6 @@ simply a temporary design pattern used to make existing frameworks that do not s
 play nice with other DI containers.
 
 
-5. Implementations
-------------------
-
-The following projects already implement the delegate lookup feature:
-
-- [Mouf](http://mouf-php.com), through the [`setDelegateLookupContainer` method](https://github.com/thecodingmachine/mouf/blob/2.0/src/Mouf/MoufManager.php#L2120)
-- [PHP-DI](http://php-di.org/), through the [`$wrapperContainer` parameter of the constructor](https://github.com/mnapoli/PHP-DI/blob/master/src/DI/Container.php#L72)
-- [pimple-interop](https://github.com/moufmouf/pimple-interop), through the [`$container` parameter of the constructor](https://github.com/moufmouf/pimple-interop/blob/master/src/Interop/Container/Pimple/PimpleInterop.php#L62)
 
 6. People
 ---------
