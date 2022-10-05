@@ -26,4 +26,3 @@ Users of dependency injections containers (DIC) are referred to as `user`.
 - `get` takes one mandatory parameter: an entry identifier. It MUST be a string.
   A call to `get` can return anything (a *mixed* value), or throws an exception if the identifier
   is not known to the container. Two successive calls to `get` with the same
-  identifier SHOULD return the same value. However, depending on the `implementor`
