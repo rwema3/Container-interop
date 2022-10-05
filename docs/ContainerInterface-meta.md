@@ -86,3 +86,10 @@ The type of the `$id` parameter in `get()` and `has()` has been discussed in
 While `string` is used in all the containers that were analyzed, it was suggested that allowing
 anything (such as objects) could allow containers to offer a more advanced query API.
 
+An example given was to use the container as an object builder. The `$id` parameter would then be an
+object that would describe how to create an instance.
+
+The conclusion of the discussion was that this was beyond the scope of getting entries from a container without
+knowing how the container provided them, and it was more fit for a factory.
+
+## Contributors
