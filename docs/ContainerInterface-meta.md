@@ -44,7 +44,3 @@ The list of options considered with their respective votes are:
 
 The complete discussion can be read in [the issue #1](https://github.com/container-interop/container-interop/issues/1).
 
-## Interface methods
-
-The choice of which methods the interface would contain was made after a statistical analysis of existing containers.
-The results of this analysis are available [in this document](https://gist.github.com/mnapoli/6159681).
