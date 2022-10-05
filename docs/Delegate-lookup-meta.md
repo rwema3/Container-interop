@@ -215,3 +215,13 @@ This was implemented in Symfony 2 using:
 - [interop.symfony.di](https://github.com/thecodingmachine/interop.symfony.di/tree/v0.1.0)
 - [framework interop](https://github.com/mnapoli/framework-interop/)
 
+
+7. Relevant Links
+-----------------
+
+_**Note:** Order descending chronologically._
+
+- [Pull request on the delegate lookup feature](https://github.com/container-interop/container-interop/pull/20)
+- [Pull request on the interface idea](https://github.com/container-interop/container-interop/pull/8)
+- [Original article exposing the delegate lookup idea along many others](http://mouf-php.com/container-interop-whats-next)
+
