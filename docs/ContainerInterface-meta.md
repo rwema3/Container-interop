@@ -48,16 +48,3 @@ The complete discussion can be read in [the issue #1](https://github.com/contain
 
 The choice of which methods the interface would contain was made after a statistical analysis of existing containers.
 The results of this analysis are available [in this document](https://gist.github.com/mnapoli/6159681).
-
-The summary of the analysis showed that:
-
-- all containers offer a method to get an entry by its id
-- a large majority name such method `get()`
-- for all containers, the `get()` method has 1 mandatory parameter of type string
-- some containers have an optional additional argument for `get()`, but it doesn't have the same purpose between containers
-- a large majority of the containers offer a method to test if it can return an entry by its id
-- a majority name such method `has()`
-- for all containers offering `has()`, the method has exactly 1 parameter of type string
-- a large majority of the containers throw an exception rather than returning null when an entry is not found in `get()`
-- a large majority of the containers don't implement `ArrayAccess`
-
