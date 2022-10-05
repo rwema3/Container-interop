@@ -71,11 +71,3 @@ As a result, the `ContainerInterface` contains two methods:
 - `get()`, returning anything, with one mandatory string parameter. Should throw an exception if the entry is not found.
 - `has()`, returning a boolean, with one mandatory string parameter.
 
-### Number of parameters in `get()` method
-
-While `ContainerInterface` only defines one mandatory parameter in `get()`, it is not incompatible with
-existing containers that have additional optional parameters. PHP allows an implementation to offer more parameters
-as long as they are optional, because the implementation *does* satisfy the interface.
-
-This issue has been discussed in [issue #6](https://github.com/container-interop/container-interop/issues/6).
-
