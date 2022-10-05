@@ -27,3 +27,8 @@ Users of dependency injections containers (DIC) are referred to as `user`.
   A call to `get` can return anything (a *mixed* value), or throws an exception if the identifier
   is not known to the container. Two successive calls to `get` with the same
   identifier SHOULD return the same value. However, depending on the `implementor`
+  design and/or `user` configuration, different values might be returned, so
+  `user` SHOULD NOT rely on getting the same value on 2 successive calls.
+  While `ContainerInterface` only defines one mandatory parameter in `get()`, implementations
+  MAY accept additional optional parameters.
+
