@@ -58,7 +58,3 @@ Containers implementing this feature can perform dependency lookups in other con
 Containers implementing this feature will offer a greater lever of interoperability
 with other containers. Implementation of this feature is therefore RECOMMENDED.
 
-A container implementing this feature:
-
-- MUST implement the `ContainerInterface`
-
