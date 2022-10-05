@@ -216,21 +216,6 @@ This was implemented in Symfony 2 using:
 - [framework interop](https://github.com/mnapoli/framework-interop/)
 
 
-6. People
----------
-
-Are listed here all people that contributed in the discussions, by alphabetical order:
-
-- [Alexandru Pătrănescu](https://github.com/drealecs)
-- [Ben Peachey](https://github.com/potherca)
-- [David Négrier](https://github.com/moufmouf)
-- [Jeremy Lindblom](https://github.com/jeremeamia)
-- [Marco Pivetta](https://github.com/Ocramius)
-- [Matthieu Napoli](https://github.com/mnapoli)
-- [Nelson J Morais](https://github.com/njasm)
-- [Phil Sturgeon](https://github.com/philsturgeon)
-- [Stephan Hochdörfer](https://github.com/shochdoerfer)
-
 7. Relevant Links
 -----------------
 
