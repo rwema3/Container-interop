@@ -130,7 +130,3 @@ interface ContainerInterface
 4. `Interop\Container\Exception\ContainerException`
 ---------------------------------------------------
 
-```php
-<?php
-namespace Interop\Container\Exception;
-
