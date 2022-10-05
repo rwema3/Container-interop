@@ -95,8 +95,3 @@ namespace Interop\Container;
 use Interop\Container\Exception\ContainerException;
 use Interop\Container\Exception\NotFoundException;
 
-/**
- * Describes the interface of a container that exposes methods to read its entries.
- */
-interface ContainerInterface
-
