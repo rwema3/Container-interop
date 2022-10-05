@@ -64,8 +64,3 @@ A container implementing this feature:
 - MUST provide a way to register a delegate container (using a constructor parameter, or a setter,
   or any possible way). The delegate container MUST implement the `ContainerInterface`.
 
-When a container is configured to use a delegate container for dependencies:
-
-- Calls to the `get` method should only return an entry if the entry is part of the container.
-  If the entry is not part of the container, an exception should be thrown
-
